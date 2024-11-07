@@ -1,5 +1,5 @@
 body {
-    background-color: #fff6f5;
+    background-color: #ffeeec;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -39,12 +39,15 @@ main {
     margin-bottom: 5em;
 }
 
-main img {
-    max-width: 10em;
-    max-height: 9em;
+main a {
     background-color: #f7cac4;
     padding: 1em;
     border-radius: 1.5em;
+}
+
+main img {
+    max-width: 10em;
+    max-height: 9em;
     margin: 0;
 }
 
@@ -75,6 +78,12 @@ p {
     display: block;
 } 
 
+.review img {
+    background-color: #f7cac4;
+    padding: 1em;
+    border-radius: 1.5em;
+}
+
 .vegan section {
     display: block;
     background-color: #ebada6;
@@ -102,10 +111,13 @@ p {
 
 .vegan section a {
     color: #d04535;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
 }
 
 .vegan a:visited {
-    color: #a73629;
+    color: #5d0900;
 }
 
 footer {
@@ -130,4 +142,18 @@ nav img {
     max-width: 2.2em;
     padding: 0.2em;
     margin: 0.1em;
+}
+
+.tilt {
+    animation: rotate 1s ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    20% {transform: rotate(10deg);}
+    40% {transform: rotate(-10deg);}
+    60% {transform: rotate(5deg);}
+    80% {transform: rotate(-5deg);}
 }
