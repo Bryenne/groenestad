@@ -8,7 +8,7 @@ header {
     background-color: #15431b;
     margin: 0;
     padding: 1em;
-    border-bottom: 1.3em solid rgb(165, 205, 91);
+    border-bottom: 1.3em solid #a5cd5b;
     display: flex;
 }
 
@@ -23,20 +23,20 @@ header section {
 }
 
 header img {
-    max-width: 5em;
-    max-height: 5em;
-    margin: 0.5em;
+    max-width: 4.5em;
+    max-height: 4.5em;
+    margin: 4px;
 }
 
 h1 {
     color: white;
-    font-size: 2em;
+    font-size: 2.3em;
     font-family: impact;
     font-weight: 900;
 }
 
 main {
-    margin-bottom: 4em;
+    margin-bottom: 5em;
 }
 
 main img {
@@ -54,7 +54,7 @@ main section {
     border-radius: 2em;
     padding: .5em;
     display: flex;
-    box-shadow: 5px 5px 8px #d46154;
+    box-shadow: 5px 5px 8px #c66b61;
 }
 
 h2 {
@@ -69,6 +69,35 @@ p {
     margin-left: .5em;
     margin-right: .5em;
     color: #6b2820;
+}
+
+.review section {
+    display: block;
+} 
+
+.vegan section {
+    display: block;
+    background-color: #ebada6;
+    box-shadow: none;
+}
+
+.vegan section h2 {
+    color: #6b2820;
+    background-color: #f7cac4;
+    padding: .5em;
+    margin: 0;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.vegan p {
+    color: #6b2820;
+    padding-left: 10px;
+ }
+
+.vegan ul li {
+    color: #6b2820;
+    font-size: 1.1em;
 }
 
 footer {
@@ -89,24 +118,8 @@ nav ul {
 }
 
 nav img {
-    max-height: 2em;
-    padding: 0;
+    max-height: 2.2em;
+    max-width: 2.2em;
+    padding: 0.2em;
     margin: 0.1em;
 }
-
-.review section {
-    display: block;
-    justify-content: center;
-}
-
-.vegan section {
-    display: block;
-    background-color: #163e1b;
-}
-
-.vegan h2 {
-    color: #b0f1b8;
-}
-.vegan p {
-    color: white;
- }
