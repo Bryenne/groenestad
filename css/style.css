@@ -116,6 +116,12 @@ p {
     background-color: transparent;
 }
 
+.vegan img {
+    height: 10em;
+    border-radius: 1em;
+    margin-left: 0.5em;
+}
+
 .vegan a:visited {
     color: #5d0900;
 }
